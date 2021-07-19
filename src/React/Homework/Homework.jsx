@@ -18,7 +18,9 @@ return (
          number = {2}
          question= 'Explain the difference between HTML, CSS and JS.'
         >
-           My answer is as follows
+           <p>Html is Hyper-Test Markup Language. It can present texts and documents to a web browser. But its function is very limited. With only HTML, we can't build up a fansy website.</p>
+           <p>CSS is cascading style sheets. It is a design language that support Html to make the website more appealing. Although by only using Html can make some appealing effects too, CSS makes the code more oragnized and contains more functions to make the website visually looks good. </p>
+           <p>Javascript is more like a functional program to make the website actually works. It can take some imput and return some output. It can make the website looks more advanced and interactive. In real world, a lot of functions require Javascript usage to store data and give feedbacks. In short saying, Javascript requires logic, while HTML is basic structure and CSS serves as a visual appealing tool.</p>
 
 
         </Essay>
