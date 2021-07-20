@@ -2,7 +2,10 @@ import React from 'react';
 import Essay from './Essay.jsx';
 const Homework = () => {
 return (
-    <div>HOMEWORK
+    <div>
+        <br></br>
+        <br></br>
+        <h1>HOMEWORK</h1>
         <Essay
          number = {1}
          question= 'What is the difference between Git, Github and Heroku?'
@@ -22,6 +25,13 @@ return (
            <p>CSS is cascading style sheets. It is a design language that support Html to make the website more appealing. Although by only using Html can make some appealing effects too, CSS makes the code more oragnized and contains more functions to make the website visually looks good. </p>
            <p>Javascript is more like a functional program to make the website actually works. It can take some imput and return some output. It can make the website looks more advanced and interactive. In real world, a lot of functions require Javascript usage to store data and give feedbacks. In short saying, Javascript requires logic, while HTML is basic structure and CSS serves as a visual appealing tool.</p>
 
+
+        </Essay>
+        <Essay
+         number = {3}
+         question= 'What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
+        >
+           
 
         </Essay>
     </div>

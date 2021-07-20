@@ -1,4 +1,4 @@
-import { BackgroundColor, yellow } from 'chalk';
+
 import React, { useState } from 'react';
 import styled from 'styled-components';
 const SunAndMoon = () => {
@@ -29,14 +29,14 @@ const SunAndMoon = () => {
 export default SunAndMoon;
 
 const SunAndMoonStyled = styled.div`
-    background-color: #aaaa25;
+    background-color: #eee9f0;
 
     text-align: center;
     padding-bottom:50 px;
-    
+
 
     h2 {
-        background-color: #ac4d5d;
+        background-color: #dcd0dd;
         color: white;
     }
 `;
