@@ -20,6 +20,7 @@ const HeaderStyled = styled.header`
     background-color: #b08cbb;
     padding: 20px;
     text-align: center;
+    font-size: 100px;
     color: white;
 
 
