@@ -31,7 +31,8 @@ return (
          number = {3}
          question= 'What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
         >
-           
+           <p>SPA is an application that only loads a single page web document. The javascript inside it updates based on user's interaction. MPA loads entire pages and new pages when users interact. </p>
+           <p>SPAs runs faster than traditional multi-pages websites. They operates logic on websites rather on servers. So not every command needs to be sent back and forth to the server, but only the data. For example, Github and Facebook are SPAs. However, MPAs is more budget friendly and more easier to build technologically. Many website with reader-only functions are MPAs. </p>
 
         </Essay>
     </div>
