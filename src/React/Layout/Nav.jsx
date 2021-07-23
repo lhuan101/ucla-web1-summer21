@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+
 const Nav = () => {
     return <NavStyled>
-        <a href="/">Welcome</a>
-        <a href="/Services">Services</a>
-        <a href="/Contact">Contact</a>
-        <a href="/Login">Login</a>
-        <a href="/Homework">Homework</a>
+        <NavLink to="/" exact >Welcome</NavLink>
+        <NavLink to="/Services">Services</NavLink>
+        <NavLink to="/Contact">Contact</NavLink>
+        <NavLink to="/Login">Login</NavLink>
+        <NavLink to="/Homework">Homework</NavLink>
         
         </NavStyled>
 
@@ -35,6 +37,10 @@ const NavStyled = styled.nav`
             &:hover {
                 color: grey;
                 background-color: white;
+            }
+            &.active{
+                color: goldenrod;
+                background-color: #e7dac7;
             }
 
 
