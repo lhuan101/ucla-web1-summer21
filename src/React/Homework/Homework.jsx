@@ -1,8 +1,11 @@
 import React from 'react';
 import Essay from './Essay.jsx';
+import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
+
 const Homework = () => {
 return (
     <div>
+        <SunAndMoon />
         <br></br>
         <br></br>
         <h1>HOMEWORK</h1>
@@ -33,6 +36,14 @@ return (
         >
            <p>SPA is an application that only loads a single page web document. The javascript inside it updates based on user's interaction. MPA loads entire pages and new pages when users interact. </p>
            <p>SPAs runs faster than traditional multi-pages websites. They operates logic on websites rather on servers. So not every command needs to be sent back and forth to the server, but only the data. For example, Github and Facebook are SPAs. However, MPAs is more budget friendly and more easier to build technologically. Many website with reader-only functions are MPAs. </p>
+            <li>SEO: Common myth is that serc</li>
+        </Essay>
+        <Essay
+        number = {4}
+         question= 'What is the difference between Web Designer, front-end developer and back-end developer?'
+        >
+
+
 
         </Essay>
     </div>
