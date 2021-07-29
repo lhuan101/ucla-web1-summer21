@@ -7,17 +7,20 @@ import Footer from './Layout/Footer.jsx';
 
 import styled from 'styled-components';
 
+import {MediaQueryProvider} from 'common/mediaQueries/useMediaQuery.js';
+
 const App = () => {
     return (
-        
+       <MediaQueryProvider>
         <BrowserRouter>
-        <AppStyled>
-           <Header />
-           <Nav />
-           <Main />
-           <Footer />
-         </AppStyled>
+            <AppStyled>
+                <Header />
+                 <Nav />
+                 <Main />
+                 <Footer />
+             </AppStyled>
         </BrowserRouter>
+        </MediaQueryProvider> 
     );
 }
 

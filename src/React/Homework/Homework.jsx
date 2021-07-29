@@ -1,11 +1,20 @@
 import React from 'react';
+
+import {useMediaQuery} from 'common/mediaQueries/useMediaQuery.js';
+
 import Essay from './Essay.jsx';
 import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
 const Homework = () => {
-return (
+
+    const { media } = useMediaQuery();
+
+    console.log('media',media);
+    
+    return (
     <div>
-        <SunAndMoon />
+        { media.lg && <SunAndMoon /> }
+    
         <br></br>
         <br></br>
         <h1>HOMEWORK</h1>
@@ -47,6 +56,15 @@ return (
             <p>Back-end developers is about making sites and web applications render on the server-side. Back-end developers also work with software stacks that include operating systems, web servers, frameworks, languages, programming APIs and more. The language they use will contain more logic and not limited to C, C++, Java, Python etc. </p>
 
 
+
+        </Essay>
+        <Essay
+        number = {5}
+         question= ' Pick a subject for your Final Project and write 2-3 paragraphs. '
+        >
+            <p>My client is myself. </p>
+            <p>The purpose will be to promote my porfolio work and build an interactive personal website.</p>
+            <p>I choose this subject because a personal website is crucial for graphic designers. Although I look into the online editors, their function w/o coding language is very limited. I can do only simple layout and still websites, but I want to be a digital designer, so I think it's better for me to have a dramatic website more than a still one just for showing works.</p>
 
         </Essay>
     </div>
