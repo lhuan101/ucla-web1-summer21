@@ -44,8 +44,8 @@ const MainStyled = styled.main`
     padding: 100px;
     text-align: left;
 
-    div {
+    /*div {
          border: solid 2px orange;
          padding: 20px;
-    }
+    }*/
 `;
