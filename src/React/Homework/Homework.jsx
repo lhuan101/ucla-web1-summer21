@@ -45,7 +45,7 @@ const Homework = () => {
         >
            <p>SPA is an application that only loads a single page web document. The javascript inside it updates based on user's interaction. MPA loads entire pages and new pages when users interact. </p>
            <p>SPAs runs faster than traditional multi-pages websites. They operates logic on websites rather on servers. So not every command needs to be sent back and forth to the server, but only the data. For example, Github and Facebook are SPAs. However, MPAs is more budget friendly and more easier to build technologically. Many website with reader-only functions are MPAs. </p>
-            <li>SEO: Common myth is that serc</li>
+            <p> SEO: Common myth is that serc</p>
         </Essay>
         <Essay
         number = {4}
@@ -60,12 +60,20 @@ const Homework = () => {
         </Essay>
         <Essay
         number = {5}
-         question= ' Pick a subject for your Final Project and write 2-3 paragraphs. '
+         question= 'Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'
         >
-            <p>My client is myself. </p>
-            <p>The purpose will be to promote my porfolio work and build an interactive personal website.</p>
-            <p>I choose this subject because a personal website is crucial for graphic designers. Although I look into the online editors, their function w/o coding language is very limited. I can do only simple layout and still websites, but I want to be a digital designer, so I think it's better for me to have a dramatic website more than a still one just for showing works.</p>
-
+            <p>Site relative path is the path from the site’s root folder to a document. It is commonly used on a large website that uses several servers, or one server that hosts several sites.</p>
+            <p>Document relative path is hierarchical path that locates a file starting from the current working territory. They are used one current working file and the linked file are in the same folder and are not gonna ever be separate in the future. It can also link a file from another folder using folder hierachy. </p>
+            <p>An absolute path is a path that describes the location of a file or folder regardless of the current working directory. It contains the complete location of a file since the root. </p>
+        </Essay>
+        <Essay
+        number = {6}
+         question= ' What is the difference between jpg gif png svg images? '
+        >
+            <p>Jpg takes very little storage space. It is fast to upload and fast to download. Jpg contains millions of colors and is most commonly use in web n mobile browsers. It is a lose file format which means when compressed, some useless data are permanently deleted from the file causing the image to be blur in some cases.</p>
+            <p>Gif is smaller than JPG and thus can support smaller bandwidth. It only contains up to 256 colors. It is use for small simple graphics but it can animated. It is a loseless file format which means they don't lose data during compression.</p>
+            <p>PNG is ideal when size of file is not restricted. It can also be animated and contain millions of colors. When using a highly detailed image, PNG works the best. It also supports transparency. It is also a loseless file format.</p>
+            <p>SVG is the only vector file of the four formats, which means it is clear at any resolution or size. SVG can also support animation, transparency and gradients but they tend to become large file. It is also a loseless file format.</p>
         </Essay>
     </div>
 );

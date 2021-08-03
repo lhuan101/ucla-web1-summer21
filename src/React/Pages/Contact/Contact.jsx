@@ -76,10 +76,10 @@ const ContactStyled = styled.div`
         background-color: purple;
         color: white;
 
-    
+        @media ${mediaQueries.md} {
+            background-color: black;
 
-    @media ${mediaQueries.md} {
-        background-color: black;
+        }
 
     }
 
