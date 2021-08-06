@@ -75,6 +75,18 @@ const Homework = () => {
             <p>PNG is ideal when size of file is not restricted. It can also be animated and contain millions of colors. When using a highly detailed image, PNG works the best. It also supports transparency. It is also a loseless file format.</p>
             <p>SVG is the only vector file of the four formats, which means it is clear at any resolution or size. SVG can also support animation, transparency and gradients but they tend to become large file. It is also a loseless file format.</p>
         </Essay>
+        <Essay
+        number = {7}
+         question= ' Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps. '
+        >
+            <li>Project Manager: Project managers are responsible for plan and distribute the project. They make sure the project is executing correctly.  It is also their jobs to define the start of the project and the finish of the project.</li>
+            <li>Business Analyst:  He or she analyzes the market environment, and system of businesses. It is important to determine the direction of a business i.e. products, locations, services, programs through data analysis.  </li>
+            <li>Scrum Master: It is a role to ensure the team follows the principles and disciplines of projects. This person is responsible for clearing obstacles and protecting the team from outside interruptions and distractions.</li>
+            <li>UX designer: Their work focuses on a user's interaction with a product, and finds out possible business opportunities. Their work often includes design, usability, functionality, and even development and branding of the product. </li>
+            <li>Web Developer/Engineer: They create and maintain websites. They also keep track of a website's performance and capacity for further  updates and optimizations. </li>
+            <li>Quality Assurance Tester: They examine newly developed applications to make sure they perform as intended. They also take responsible for computer-automated quality assurance programs function properly. </li>
+            <li>Dev OPS: A DevOps engineer connects between the development team and the operation team. He/She create programs and tools to help the development process run.  </li>
+        </Essay>
     </div>
 );
 
