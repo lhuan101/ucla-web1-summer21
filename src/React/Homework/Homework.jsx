@@ -87,6 +87,13 @@ const Homework = () => {
             <li>Quality Assurance Tester: They examine newly developed applications to make sure they perform as intended. They also take responsible for computer-automated quality assurance programs function properly. </li>
             <li>Dev OPS: A DevOps engineer connects between the development team and the operation team. He/She create programs and tools to help the development process run.  </li>
         </Essay>
+        <Essay
+        number = {8}
+         question= 'What is considered the right size for an image or video asset?'
+        >
+            <p>Different purpose of images have different sizes. For example, banner images which appear at top of the webpage, should be 1920x768 pixels. Featured images in main area would be 735x490 pixels. Gallery images can be large, which can up to 200MB size. But larger files take more time to load. People block or profile images are usually 340x340 pixels. </p>
+            <p>For videos, it is determined by its purpose as well. 16:9 is the widescreen format for most social media videos and streams. While 21:9 usually used in movies.</p>
+        </Essay>
     </div>
 );
 
