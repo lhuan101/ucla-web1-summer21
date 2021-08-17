@@ -7,7 +7,7 @@ import Categories from './Categories/Categories.jsx';
 import Gallery from './Gallery/Gallery.jsx';
 const Container = () => {
 
-    const { categories, services } = serviceData;
+    const { categories, services } = servicesData;
 
     const [curCat, curCatUpdate] = useState(categories[0]);
 

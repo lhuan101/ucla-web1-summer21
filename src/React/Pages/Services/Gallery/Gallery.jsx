@@ -3,17 +3,17 @@ import styled from 'styled-components';
 
 import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
 import Item from './Item.jsx';
-import { servicesVersion } from 'typescript';
-const Gallery = ({ service, curCat }) => {
+
+const Gallery = ({ services, curCat }) => {
 
     return (
         <GalleryStyled className='Gallery'>
             {
                 services
-                    .filter((services) => {
+                    .filter((service) => {
                         return (curCat === 'All' || service.category === curCat);
                     })
-                    .map((services, idx) =>{
+                    .map((service, idx) =>{
                         return <Item key= { idx } service= { service } />
 
                     })

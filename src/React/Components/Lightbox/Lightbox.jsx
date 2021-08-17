@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 
 import Dark from './Dark.jsx';
-const Lightbox = ({children, LightboxContent}) => {
+const Lightbox = ({children, LightboxContent, width='200px'}) => {
 
     const [showLight, showLightUpdate] = useState(false);
 
@@ -14,7 +14,7 @@ const Lightbox = ({children, LightboxContent}) => {
             {children}
             {
                 showLight &&
-                <Dark showLightUpdate={ showLightUpdate }>
+                <Dark showLightUpdate={ showLightUpdate } width={ width }>
                     <LightboxContent />
                 </Dark>
 

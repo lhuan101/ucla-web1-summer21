@@ -6,7 +6,7 @@ const Category = ({cat, curCat, curCatUpdate }) => {
         curCatUpdate(cat);
     }
 
-    const classNme= (curCat === cat) ? 'Catergory chosen': 'Catergory';
+    const className= (curCat === cat) ? 'Catergory chosen': 'Catergory';
 
     return (
         <CategoryStyled className={ className } onClick={ handleClick }>

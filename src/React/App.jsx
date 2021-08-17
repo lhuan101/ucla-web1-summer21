@@ -8,7 +8,6 @@ import Footer from './Layout/Footer.jsx';
 import styled from 'styled-components';
 
 import {MediaQueryProvider} from 'common/mediaQueries/useMediaQuery.js';
-import Navigation from './Layout/Navigation/Navigation.jsx';
 
 const App = () => {
     return (
