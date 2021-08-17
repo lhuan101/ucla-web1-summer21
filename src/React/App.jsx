@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './Layout/Header.jsx';
-import Nav from './Layout/Nav.jsx';
+import Navigation from './Layout/Navigation/Navigation.jsx';
 import Main from './Layout/Main.jsx';
 import Footer from './Layout/Footer.jsx';
 
 import styled from 'styled-components';
 
 import {MediaQueryProvider} from 'common/mediaQueries/useMediaQuery.js';
+import Navigation from './Layout/Navigation/Navigation.jsx';
 
 const App = () => {
     return (
@@ -15,7 +16,7 @@ const App = () => {
         <BrowserRouter>
             <AppStyled>
                 <Header />
-                 <Nav />
+                 <Navigation />
                  <Main />
                  <Footer />
              </AppStyled>

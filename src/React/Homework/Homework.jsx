@@ -94,6 +94,24 @@ const Homework = () => {
             <p>Different purpose of images have different sizes. For example, banner images which appear at top of the webpage, should be 1920x768 pixels. Featured images in main area would be 735x490 pixels. Gallery images can be large, which can up to 200MB size. But larger files take more time to load. People block or profile images are usually 340x340 pixels. </p>
             <p>For videos, it is determined by its purpose as well. 16:9 is the widescreen format for most social media videos and streams. While 21:9 usually used in movies.</p>
         </Essay>
+        <Essay
+        number = {9}
+         question= 'What does it mean for a company to be Agile? What are the pros and cons of being agile?'
+        >
+            <p>A company being agile means</p>
+            <li>Pros: </li>
+            <li>Cons: </li>
+        </Essay>
+        <Essay
+        number = {10}
+         question= 'What are testing environments? What is the difference between Local, Dev, QA and Production?'
+        >
+        <p>Test Environments are spaces for a particular test to make sure the final deployment are free of bugs and errors. A test environment for a system can be browsers or applications. Usually, test environments meet the minimum requirements for the application to function.</p>
+        <li>Local: Local environment is to test internal servers and local folders on the BrowserStack cloud. It tests internal servers and private folders on major operating systems and a wide range of browsers through virtual machine. </li>
+        <li>Dev: Development environments may contain several different versions of a product. The developer tests code and checks whether the application runs successfully. Then the developers hand in a upgraded version to the next stage.</li>
+        <li>QA: A QA environment tests the upgraded version of the application to make sure the new features not breaking the existing functions. It also allows certains users to test the anticipated application. </li>
+        <li>Production: A production environment contains just the final version of the product. Once the test is done, the application becomes part of the server. </li>
+        </Essay>
     </div>
 );
 
