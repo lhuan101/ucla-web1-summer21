@@ -112,6 +112,13 @@ const Homework = () => {
         <li>QA: A QA environment tests the upgraded version of the application to make sure the new features not breaking the existing functions. It also allows certains users to test the anticipated application. </li>
         <li>Production: A production environment contains just the final version of the product. Once the test is done, the application becomes part of the server. </li>
         </Essay>
+        <Essay
+        number = {11}
+         question= 'Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS) ?'
+        >
+        <p>An image in HTML provides a visual meaning in context like a logo or photo. It also has a text fall-back. It will have a relationship  with the link and rest of the code.</p>
+        <p>An CSS image is only for decorative purpose. The web page content still makes sense if the picture is being removed. </p>
+        </Essay>
     </div>
 );
 

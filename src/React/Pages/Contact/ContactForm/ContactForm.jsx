@@ -1,17 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Form = () => {
+import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx';
+const ContactForm = () => {
 
     return (
-        <FormStyled className='Form'>
-            Form 
-        </FormStyled>
+        <ContactFormStyled className= 'ContactForm'>
+            <UniversalForm />
+        </ContactFormStyled>
     );
 }
 
-export default Form;
+export default ContactForm;
 
-const FormStyled = styled.div`
+const ContactFormStyled = styled.div`
     
 `;
