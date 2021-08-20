@@ -116,7 +116,7 @@ const Homework = () => {
         number = {11}
          question= 'Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS) ?'
         >
-        <p>An image in HTML provides a visual meaning in context like a logo or photo. It also has a text fall-back. It will have a relationship  with the link and rest of the code.</p>
+        <p>An image in HTML provides a visual meaning in context like an identity logo or photo. It also has a text fall-back. It will have a relationship  with the link and rest of the code.</p>
         <p>An CSS image is only for decorative purpose. The web page content still makes sense if the picture is being removed. </p>
         </Essay>
     </div>
