@@ -1,25 +1,24 @@
-import React, { useState } from 'react';
+import React, { useReducer } from 'react';
 import styled from 'styled-components';
+
+import Context, { reducer } from './Context/index.js';
 
 import Form from './Form/Form.jsx';
 import FormGroup from './Form/FormGroup/FormGroup.jsx';
 
-const UniversalForm = () => {
+const UniversalForm = ({ defaultFormData }) => {
 
-    const [inputName, inputNameUpdate] = useState('');
+    const [state, dispatch] = useReducer(reducer, defaultFormData);
 
-    const handleUpdate = (event) => {
-        inputNameUpdate(event.target.value);
-    }
-
-    console.log('inputName', inputName);
     return (
-        <UniversalFormStyled className='UniversalForm'>
+        <Context.Provider value={ {state, dispatch}}>
+            <UniversalFormStyled className='UniversalForm'>
             <Form>
-                <FormGroup inputName={ inputName } handleUpdate={ handleUpdate } />
+                <FormGroup />
                 
             </Form>
-        </UniversalFormStyled>
+            </UniversalFormStyled>
+        </Context.Provider>
     );
 }
 

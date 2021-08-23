@@ -9,10 +9,7 @@ const FormGroup = () => {
         <FormGroupStyled className='FormGroup'>
              
             <FormLabel />
-            <FormControl 
-                        inputName={ inputName }
-                        handleUpdate={ handleUpdate }
-            />
+            <FormControl />
             
         </FormGroupStyled>
     );

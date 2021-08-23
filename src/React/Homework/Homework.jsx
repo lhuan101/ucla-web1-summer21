@@ -119,6 +119,15 @@ const Homework = () => {
         <p>An image in HTML provides a visual meaning in context like an identity logo or photo. It also has a text fall-back. It will have a relationship  with the link and rest of the code.</p>
         <p>An CSS image is only for decorative purpose. The web page content still makes sense if the picture is being removed. </p>
         </Essay>
+        <Essay
+        number = {12}
+         question= ' What is the difference between IDs, classes and Tags? How does Specificity play an role in the selection of HTML elements (both in CSS and JS)? '
+        >
+        <li> ID applies a style to one unique element. ID uses a special URL linked directly to one element. </li>
+        <li> Class applies a style to multiple elements. </li>
+        <li> Tags are keywords which defines how web browser will display the content. </li>
+        <p> Specificity is when there are two or more conflicting CSS rules that point to the same element, the browser follows certain rules to determine which one is most specific and therefore wins out. When the two CSS rules are same specific, the later one wins out. </p>
+        </Essay>
     </div>
 );
 
