@@ -98,9 +98,9 @@ const Homework = () => {
         number = {9}
          question= 'What does it mean for a company to be Agile? What are the pros and cons of being agile?'
         >
-            <p>A company being agile means</p>
-            <li>Pros: </li>
-            <li>Cons: </li>
+            <p>A company being agile means the company responds rapidly and flexibly to customer demands. In this way the company remains competitive in the business.</p>
+            <li>Pros: The company might have better costomer satisfaction. It might have competitive products or outputs. It has quite a bit flexibility and the business continues to improve. </li>
+            <li>Cons: If a team is not well managed enough, being agile can be a waste of money and time. It can also lead to fragmented output and no end for the project. The planning can be clueless because of this. </li>
         </Essay>
         <Essay
         number = {10}
