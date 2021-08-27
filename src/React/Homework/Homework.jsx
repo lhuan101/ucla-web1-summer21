@@ -128,6 +128,14 @@ const Homework = () => {
         <li> Tags are keywords which defines how web browser will display the content. </li>
         <p> Specificity is when there are two or more conflicting CSS rules that point to the same element, the browser follows certain rules to determine which one is most specific and therefore wins out. When the two CSS rules are same specific, the later one wins out. </p>
         </Essay>
+        <Essay
+        number = {13}
+         question= ' What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns? '
+        >
+        <p>A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. i.e. Mixin, nesting selector, inheritance selector. managing CSS in a more dynamic way using scripts.</p> 
+        <p>Styled Components is a library that allows you to use component-level styles in the application. It is written with a mixture of JavaScript and CSS using a technique called CSS-in-JS.</p>
+        <p>Separate of concerns is to  to separate the code that accesses the database from the business logic on the backend. However, in this case it put CSS/HTML into a single component. </p>
+        </Essay>
     </div>
 );
 

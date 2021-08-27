@@ -14,9 +14,11 @@ const Input = ({ control }) => {
 
     }
 
+    const className = (!control.validation.isValid) ? 'Input error':'Input';
+
     return (
         <InputStyled 
-            className="Input" 
+            className={ className }
             type={ control.type }
             id={ control.id }
             value={ control.value }

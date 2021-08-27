@@ -18,6 +18,14 @@ export const reducer = (state, action) => {
             };
         }
 
+    
+        case actionTypes.UF_UPDATE_FORM: {
+            return {
+                ...action.newState
+                
+            };
+        }
+
         default:{
             return {...state}
         }
