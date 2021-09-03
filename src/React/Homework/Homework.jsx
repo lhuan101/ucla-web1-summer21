@@ -136,6 +136,12 @@ const Homework = () => {
         <p>Styled Components is a library that allows you to use component-level styles in the application. It is written with a mixture of JavaScript and CSS using a technique called CSS-in-JS.</p>
         <p>Separate of concerns is to  to separate the code that accesses the database from the business logic on the backend. However, in this case it put CSS/HTML into a single component. </p>
         </Essay>
+        <Essay
+        number = {14}
+         question= 'Who is the client? What is its purpose? Why did you choose this subject?'
+        >
+        <p>For my final project, the client is myself. The purpose is to make a website for myself to promote my porfolio work. I choose this subject because right now my website is made of non-code web constructing Apps. The function is very limited and there is not a lot of data-responsive functions. I hope this final project can help me create at least useful code prompts to let it be more dynamic.</p>
+        </Essay>
     </div>
 );
 

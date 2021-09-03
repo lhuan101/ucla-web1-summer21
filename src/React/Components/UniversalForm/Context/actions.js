@@ -1,5 +1,6 @@
 import { isValidEmail } from 'common/utilities.js';
 import { actionTypes } from './actionTypes.js';
+import API from 'common/API.js';
 
 /*---------------------------
 | Actions (Action Creators)
@@ -17,14 +18,14 @@ export const updateControl = (id, value, dispatch, state) => {
     });
 }
 
-export const submitForm = (dispatch, state) => {
+export const submitForm = async (dispatch, state) => {
     let newState ={
         ...state,
         hasSubmitted: true,
     }
 
     newState = validateControls(newState);
-    newState = submitData(newState);
+    newState = await submitData(newState);
 
     dispatch({
         type: actionTypes.UF_UPDATE_FORM,
@@ -32,12 +33,21 @@ export const submitForm = (dispatch, state) => {
     })
 }
 
-const submitData = (currentState) => {
+const submitData = async (currentState) => {
 
     let response = 'Unable to post to server';
     let message = 'Testing 123';
 
     // API call
+    const apiRawResponse = await API.post(currentState.apiUrl, currentState.controls);
+
+    response = apiRawResponse.data;
+
+    message = (response.success)
+        ? 'Form Submitted Successfully'
+        : 'Error Submit Form. Please Try again.'
+
+    console.log('response', response);
 
     return {
         ...currentState,

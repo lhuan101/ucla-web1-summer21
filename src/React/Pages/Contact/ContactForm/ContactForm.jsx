@@ -10,12 +10,12 @@ const ContactForm = () => {
         request: {},
         response: {},
         message: '',
-        
+
         controls: [
             {
                 id: 'fullname',
-                label: 'Full Name',
-                value: '',
+                label: 'Fullname',
+                value: 'SoleilDumb',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -26,7 +26,7 @@ const ContactForm = () => {
             {
                 id: 'email',
                 label: 'Email',
-                value: '',
+                value: 'oxokcoco@gmail.com',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -37,7 +37,7 @@ const ContactForm = () => {
             {
                 id: 'message',
                 label: 'Message',
-                value: '',
+                value: 'This is my really cool message.',
                 type: 'textarea',
                 validation: {
                     isValid: true,
