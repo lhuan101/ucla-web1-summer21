@@ -142,6 +142,20 @@ const Homework = () => {
         >
         <p>For my final project, the client is myself. The purpose is to make a website for myself to promote my porfolio work. I choose this subject because right now my website is made of non-code web constructing Apps. The function is very limited and there is not a lot of data-responsive functions. I hope this final project can help me create at least useful code prompts to let it be more dynamic.</p>
         </Essay>
+        <Essay
+        number = {15}
+         question= 'What is the difference between Web Hosts, Domains, and FTP?'
+        >
+        <li>Web Hosts:  It is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web.</li>
+        <li>Domains: A domain is a network of computers and devices that are controlled by one set authority and that have specific guidelines. It is the identity of the name points to one or several IP addresses. </li>
+        <li>FTP: FTP stands for File transfer protocol. It is a set of rules that computers follow for the transferring of files from one system to another over the internet.</li>
+        </Essay>
+         <Essay
+        number = {16}
+         question= 'What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'
+        >
+        <p>Package Manager ischarged with the task of finding, installing, maintaining or uninstalling software packages upon the user's command. It helps online repositories store your package and allows others to find your project.</p>
+        </Essay>
     </div>
 );
 
