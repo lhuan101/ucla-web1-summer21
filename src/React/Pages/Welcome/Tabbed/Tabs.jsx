@@ -29,4 +29,7 @@ export default Tabs;
 
 const TabsStyled = styled.div`
     display: flex;
+    justify-content: center;
+
+    
 `;

@@ -22,7 +22,6 @@ export default Content;
 const ContentStyled = styled.div`
     padding: 20px;
     min-height: 200px;
-    
 
     display: flex;
 
@@ -43,5 +42,10 @@ const ContentStyled = styled.div`
         width: 100%;
         margin: auto;
         display: block;
+
+        //outline: solid 1px red;
+
+        display: flex;
+        justify-content: center;
     }
 `;

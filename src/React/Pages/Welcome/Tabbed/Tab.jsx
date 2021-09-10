@@ -25,7 +25,6 @@ const TabStyled = styled.div`
     text-align: center;
     color: grey;
     font-family: Chalkduster, fantasy;
-
     cursor: pointer;
 
     margin-right: 5px;

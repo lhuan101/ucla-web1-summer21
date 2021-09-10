@@ -22,11 +22,10 @@ const WelcomeStyled = styled.div`
 
     
     .test{
-        position: fixed;
-        width: 250%;
+        
         height: 100vh;
-        margin: auto;
-        display: block;
+        display: flex;
+        justify-content: center;
 
     }
       

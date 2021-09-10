@@ -26,6 +26,9 @@ export default App;
 
 const AppStyled = styled.div`
    
-    
+    //background-image: url('https://m.media-amazon.com/images/I/51qgMyaXioL._AC_SX466_.jpg');
+    //background-repeat: no-repeat;
+    //background-attachment: fixed;
+    //background-size: cover;
 
 `;
