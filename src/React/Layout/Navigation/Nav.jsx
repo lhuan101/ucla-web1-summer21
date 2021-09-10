@@ -7,10 +7,10 @@ import { mediaQueries } from 'common/mediaQueries/mediaQueries';
 
 const Nav = () => {
     return <NavStyled>
-        <NavLink to="/" exact >Welcome</NavLink>
-        <NavLink to="/Services">Services</NavLink>
+        <NavLink to="/" exact >Home</NavLink>
+        <NavLink to="/Services">Characters</NavLink>
+        <NavLink to="/About">About</NavLink>
         <NavLink to="/Contact">Contact</NavLink>
-        <NavLink to="/Login">Login</NavLink>
         <NavLink to="/Homework">Homework</NavLink>
         
         </NavStyled>
@@ -21,10 +21,10 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: #dcd0dd;
-    color: white;
+    color: grey;
     padding: 10px;
     text-align: center;
+    font-family: Chalkduster, fantasy;
 
     a{
             display: block;
@@ -42,8 +42,8 @@ const NavStyled = styled.nav`
                 background-color: white;
             }
             &.active{
-                color: goldenrod;
-                background-color: #e7dac7;
+                color: grey;
+                background-color: white;
             }
 
 

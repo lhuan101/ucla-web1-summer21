@@ -28,7 +28,7 @@ const LightStyled = styled.div`
 
     position: absolute;
 
-    background-color: #ffff;
+    background-color: #e9e9e9;
 
     width: ${
         ({w}) => {

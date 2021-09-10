@@ -14,7 +14,7 @@ const Container = () => {
     console.log('curCat', curCat);
     return (
         <ContainerStyled className='Container'>
-            <p>{ curCat }</p>
+            
             <Categories 
                 categories={ categories }
                 curCat={ curCat }

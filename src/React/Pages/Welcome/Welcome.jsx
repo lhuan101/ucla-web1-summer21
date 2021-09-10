@@ -1,20 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Playground from '../../Components/Lightbox/Playground.jsx';
-import Slideshow from "./Slideshow/Slideshow.jsx";
-import Tabbed from "./Tabbed/Tabbed.jsx";
-import Staff from "./Staff/Staff.jsx";
+import fun from './fun.gif'
+
 
 const Welcome = () => {
 
     return (
         <WelcomeStyled className='Welcome'>
-            <h1>Welcome Page</h1>
-            <Playground />
-            <Slideshow />
-            <Tabbed />
-            <Staff />
+          <div className='test'><img src={fun} />
+          </div>
+          
 
         </WelcomeStyled>
     );
@@ -23,5 +19,15 @@ const Welcome = () => {
 export default Welcome;
 
 const WelcomeStyled = styled.div`
+
     
+    .test{
+        position: fixed;
+        width: 250%;
+        height: 100vh;
+        margin: auto;
+        display: block;
+
+    }
+      
 `;

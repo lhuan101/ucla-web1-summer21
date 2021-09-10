@@ -1,18 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import ReactPlayer from 'react-player/youtube';
+
+
 const Content = ({chosenTab}) => {
 
     return (
         <ContentStyled className='Content'>
-            <div className="image">
-                <img src= { chosenTab.image } alt="{ chosenTab.image }" />
+            <div className="video">
+                <ReactPlayer url={chosenTab.video} />
             </div>
-            <div className="info">
-                <h3>{ chosenTab.title }</h3>
-                <div dangerouslySetInnerHTML={ {__html: chosenTab.text }} />
-            </div>
+
         </ContentStyled>
+
     );
 }
 
@@ -20,8 +21,8 @@ export default Content;
 
 const ContentStyled = styled.div`
     padding: 20px;
-    background-color: #dac7af;
     min-height: 200px;
+    
 
     display: flex;
 
@@ -36,5 +37,11 @@ const ContentStyled = styled.div`
     .info{
         flex: 4;
         padding: 0px 20px;
+    }
+
+    .video{
+        width: 100%;
+        margin: auto;
+        display: block;
     }
 `;

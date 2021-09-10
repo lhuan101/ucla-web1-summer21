@@ -7,16 +7,19 @@ import Login from "../Pages/Login/Login.jsx";
 import Contact from "../Pages/Contact/Contact.jsx";
 import Services from "../Pages/Services/Services.jsx";
 import Homework from '../Homework/Homework.jsx';
+import About from 'React/Pages/About/About.jsx';
 
 const Main = () => {
     return <MainStyled>
-        <h1>Main</h1>
         <Switch>
-            <Route path='/services'>
-                <Services />
+            <Route path='/About'>
+                <About />
              </Route>
              <Route path='/contact'>
                 <Contact />
+            </Route>
+            <Route path='/services'>
+                <Services />
             </Route>
             <Route path='/login'>
                 <Login />
@@ -33,13 +36,16 @@ const Main = () => {
 
 
         </MainStyled>
-
+    
 }
 
 export default Main;
 
 const MainStyled = styled.main`
-    background-color: white;
+    
+    
+    
+    
     color: #505050;
     padding: 100px;
     text-align: left;

@@ -19,14 +19,16 @@ export default Category;
 
 const CategoryStyled = styled.button`
 
-    background-color: #dbbedb;
-    color: white;
+    background-color: white;
+    font-family: Chalkduster, fantasy;
+    color: grey;
     border: none;
     padding: 10px 20px;
     margin: 0px 10px;
 
     &.chosen {
-        background-color: purple;
+        //background-color: purple;
+        color: black;
     }
     
 `;

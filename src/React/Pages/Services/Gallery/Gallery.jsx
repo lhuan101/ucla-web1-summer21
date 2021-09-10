@@ -25,7 +25,7 @@ const Gallery = ({ services, curCat }) => {
 export default Gallery;
 
 const GalleryStyled = styled.div`
-    margin: 25px 0px;
+    margin: 25px 100px;
 
     display: grid;
 
@@ -37,6 +37,6 @@ const GalleryStyled = styled.div`
     grid-template-columns: repeat(2, 1fr);
 
     @media ${mediaQueries.lgUp} {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 `;

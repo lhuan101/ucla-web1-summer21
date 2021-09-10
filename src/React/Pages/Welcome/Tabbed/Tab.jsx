@@ -20,11 +20,11 @@ export default Tab;
 const TabStyled = styled.div`
 
     padding: 20px;
-    background-color: #dac7af;
 
     width: 150px;
     text-align: center;
-    color: white;
+    color: grey;
+    font-family: Chalkduster, fantasy;
 
     cursor: pointer;
 
@@ -32,9 +32,9 @@ const TabStyled = styled.div`
     /* TRBL */
     border-radius: 5px 5px 0px 0px; 
     
-    background-color: orange;
+    background-color: white;
 
     &.chosen{
-        background-color: #ddceb1;
+        color: black;
     }
 `;

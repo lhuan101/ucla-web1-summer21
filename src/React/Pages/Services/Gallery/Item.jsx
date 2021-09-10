@@ -15,7 +15,7 @@ const Item = ({ service }) => {
                 <img src={ service.image } alt={ service.title } />
                 <h3>{ service.title }</h3>
                 <p>{ service.description}</p>
-                <p>${ service.cost}</p>
+                <p> Age: { service.age}</p>
             </div>
         );
     }
@@ -42,10 +42,17 @@ const ItemStyled = styled.div`
         display: black;
     }
     h3{
-        background-color: #e6aae6;
-        color: white;
+        background-color: black;
+        color: #eeeeee;
         padding: 5px;
         font-size: 18px;
+        font-family: Chalkduster, fantasy;
         margin: 0px;
+    }
+    p{
+        font-family: Chalkduster, fantasy;
+        font-weight: 1px;
+        font-size: 12px;
+        color: grey;
     }
 `;

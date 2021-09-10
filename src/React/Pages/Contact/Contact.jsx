@@ -11,17 +11,15 @@ const Contact = () => {
 
     return (
         <ContactStyled className='Contact'>
-            <h1>Contact Page </h1>
+            
             <div className='row'>
-                <div className="col">
-                    <Info />
-                </div>
+                
                 <div className="col">
                     <ContactForm />
                 </div>
 
             </div>
-            <Map />
+            
         </ContactStyled>
     );
 }
@@ -54,17 +52,20 @@ export default Contact;
 `; */
 
 const ContactStyled = styled.div`
+
     @media ${mediaQueries.mdUp}{
     .row{
-        display: flex;
-
-        .col{
+        width: 50%;
+        margin: auto;
+        /* display: flex; */
+        display: block;
+        /* .col{
             flex: 1;
 
-        }
+        } */
     }
     }
-    background-color: pink;
+    
 
     /* @media (min-width: 800px){
         background-color: orange;

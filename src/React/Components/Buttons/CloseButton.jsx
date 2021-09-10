@@ -15,10 +15,9 @@ export default CloseButton;
 const CloseButtonStyled = styled.div`
     display: block;
     width: 25px;
-    border: solid 1px purple;
-    border-radius: 50%;
+    border-radius: 75%;
     text-align: center;
-    color: black;
-    background-color: ghostwhite;
+    color: white;
+    background-color: transparent;
     cursor: pointer;
 `;

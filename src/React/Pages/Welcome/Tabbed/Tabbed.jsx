@@ -22,7 +22,7 @@ const Tabbed = () => {
                     chosenTabUpdate= { chosenTabUpdate }
                 />
                 <Content 
-                 chosenTab={ chosenTab }
+                chosenTab={ chosenTab }
                 />
                 
             </div>
@@ -33,5 +33,6 @@ const Tabbed = () => {
 export default Tabbed;
 
 const TabbedStyled = styled.div`
+    margin: auto;
     
 `;

@@ -15,7 +15,7 @@ const ContactForm = () => {
             {
                 id: 'fullname',
                 label: 'Fullname',
-                value: 'SoleilDumb',
+                value: '',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -26,7 +26,7 @@ const ContactForm = () => {
             {
                 id: 'email',
                 label: 'Email',
-                value: 'oxokcoco@gmail.com',
+                value: '',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -37,7 +37,7 @@ const ContactForm = () => {
             {
                 id: 'message',
                 label: 'Message',
-                value: 'This is my really cool message.',
+                value: '',
                 type: 'textarea',
                 validation: {
                     isValid: true,
@@ -61,5 +61,8 @@ const ContactForm = () => {
 export default ContactForm;
 
 const ContactFormStyled = styled.div`
-    
+    /* width: 50%; */
+    font-family: Chalkduster, fantasy;
+    font-size: 14px;
+
 `;
